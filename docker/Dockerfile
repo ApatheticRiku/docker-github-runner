@@ -43,6 +43,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
         gettext \
         liblttng-ust0 \
         libcurl4-openssl-dev \
+        nodejs \
         openssh-client && \
     rm -rf /var/lib/apt/lists/* && \
     apt-get clean
